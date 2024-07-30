@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav1 h3 {
+  background-color: white;
+  margin-left: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  border: 1px solid rgb(53, 53, 53);
+  padding: 7px 12px;
+  border-radius: 40px;
+}
+
+.nav h1 {
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.nav button {
+  padding: 7px 12px;
+  border-radius: 50px;
+  border: 1px solid rgb(53, 53, 53);
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#signup {
+  color: white;
+  background-color: rgb(242, 89, 68);
+  border: none;
+}
+
+#main > h1 {
+  font-size: 170px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+img {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+#img1 {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-35deg);
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-25deg);
+}
+#img4 {
+  transform: translate(-50%, -50%) rotate(-15deg);
+}
+
+#btm-left {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 17px;
+}
+
+#btm-right {
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+  font-weight: 500;
+  color: rgb(242, 89, 68);
+  font-size: 18px;
+}
+
+#btm-right-media {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  font-size: 12px;
+}
+
+#copyright {
+  font-size: 12px;
+  position: absolute;
+  bottom: 2%;
+  left: 3%;
+  color: rgb(110, 110, 110);
+}
