@@ -273,8 +273,9 @@ body {
 }
 
 #myclient{
-  padding: 10px;
-  background-color: blue;
+  border-right: 2px solid black;
+  padding-right: 40px;
+  /* background-color: blue; */
   display: flex;
   justify-content: space-between;
   width: 40%;
@@ -288,4 +289,19 @@ body {
 
 #myclient i{
   font-size: 30px;
+}
+
+#client{
+  width: 60%;
+  height: 100%;
+  padding: 0 40px;
+}
+
+#client-part{
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 40px 0;
 }
