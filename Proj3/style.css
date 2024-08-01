@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 47px;
+}
+
+#nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+#nav1 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#nav1 h2 {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+#nav2 h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#content {
+  padding: 42px 47px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+#content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#content h1 {
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: 500;
+  letter-spacing: -8px;
+  word-spacing: 15px;
+}
+
+#case-study {
+  padding: 42px 47px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#case-study h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#right-case {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#right-line {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+}
+
+#cs-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 47px;
+  gap: 60px;
+}
+
+.element {
+  width: 50%;
+}
+
+.element-img {
+  height: 500px;
+  width: 85%;
+  border-radius: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+#img1 {
+  background-image: url("https://i.pinimg.com/564x/cb/c7/6a/cbc76a054c9599cc13d5d69910029a15.jpg");
+}
+
+#img2 {
+  background-image: url("https://i.pinimg.com/originals/62/71/77/62717797184376245fdc97fada926a6c.jpg");
+}
+
+.bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom i {
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 30px;
+  font-size: 26px;
+  border: 1px solid black;
+  color: black;
+  transition: background-color 0.15s;
+}
+
+.bottom i:hover {
+  background-color: black;
+  color: white;
+}
+
+.bottom i:active {
+  opacity: 0.6;
+}
+
+.bottom h4 {
+  color: rgb(134, 134, 134);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bottom h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
