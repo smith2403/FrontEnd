@@ -30,6 +30,7 @@ body {
   justify-content: space-between;
   width: 35%;
 }
+
 #nav1 h3 {
   font-size: 20px;
   font-weight: 600;
@@ -42,7 +43,9 @@ body {
   border-radius: 40px;
   font-size: 20px;
 }
+
 #nav2 h4 {
+  cursor: pointer;
   font-size: 18px;
   font-weight: 600;
 }
